@@ -1,7 +1,10 @@
 .user-component {
+  display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
   padding-bottom: 10px;
+  border-radius: 20px;
+  padding-top: 10px;
 }
 
 .user-component,
@@ -34,7 +37,8 @@
   border-radius: 25px;
 }
 .user-component__title--not-bold {
-  font-weight: 400;
+  color: darkgreen;
+  font-weight: 600;
 }
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);

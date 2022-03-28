@@ -1,0 +1,24 @@
+@keyframes chatsAnimation {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(900px);
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: none;
+    visibility: hidden;
+  }
+}
+
+.chats-animation__img {
+  margin-top: 30px;
+  padding-left: 20px;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  animation: chatsAnimation 3s linear forwards;
+}

@@ -19,6 +19,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chats.css";
 
 body {
   color: #2e363e;
@@ -27,4 +28,14 @@ body {
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+.all-body {
+  background-image: url("https://i.pinimg.com/originals/29/49/0e/29490e7d05107ce4559a10214274288e.jpg");
+  z-index: 100;
+  height: 100vh;
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 0;
 }

@@ -1,15 +1,24 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 15px 0px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 10px;
   margin-top: -15px;
+  width: 50%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-radius: 40px;
 }
 #friends-display-link i {
   margin: 0px 5px;
   color: rgba(0, 0, 0, 0.3);
+}
+.screen-header__friends {
+  margin-bottom: 0;
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
@@ -35,15 +44,13 @@
   }
 }
 #splash-screen {
-  background-color: var(--yellow);
+  background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNzEwMTZfMjY2/MDAxNTA4MTE4Njk5NjM4.8Pg173ADOXyJqd82PZzvwSSwMp7Ub6gds9j3OY-gQp4g.apLDWHiF_WtqFBM3ijC1ADxl4D20wsa1YwDxt_7yaRkg.JPEG.jinmichu/IMG_1922.jpg?type=w800");
   position: absolute;
   height: 100vh;
   width: 100vw;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 128px;
+  top: 0px;
+  background-position: center center;
+  background-size: cover;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
 }
