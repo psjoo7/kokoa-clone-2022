@@ -28,12 +28,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(60, 0, 30, 0.4);
+  border-radius: 40px;
 }
 .open-post__title {
+  color: rgb(0, 100, 0);
+  font-size: 25px;
   font-weight: 600;
   margin-bottom: 7px;
 }
 .open-post__hashtags {
+  color: rgb(0, 100, 0);
   text-transform: uppercase;
   opacity: 0.6;
 }
@@ -67,7 +72,7 @@
 .open-post__photo img {
   width: 120px;
   height: 120px;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.5);

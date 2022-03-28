@@ -17,18 +17,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
-.more-suggestions__icon-image i {
-  font-size: 32px;
-  color: white;
+.more-suggestions__icon-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.more-suggestions__icon-text {
+  color: rgb(0, 100, 0);
+  font-weight: 600;
+  text-align: center;
 }

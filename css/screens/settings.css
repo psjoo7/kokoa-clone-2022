@@ -4,7 +4,8 @@
 .settings__setting {
   padding: 20px 0;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,6 +16,7 @@
   opacity: 0.8;
   margin-right: 30px;
   font-size: 22px;
+  color: rgba(0, 0, 0, 1);
 }
 .settings__setting-column:last-child {
   opacity: 0.5;
